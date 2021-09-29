@@ -1,0 +1,345 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  
+}
+
+:root {
+  --f-primary: 'Source Code Pro', font-family;
+  --f-primary: 'Source Code Pro', monospace;
+  
+  -fw-reg: 300;
+  -fw-bold: 900;
+  --clr-bg: #EEEEEE;
+  --clr-dark: #393E46;
+  --clr-accent: #00ADB5;
+  
+  --fs-h1: 3rem;
+  --fs-h2: 2.25rem;
+  --fs-h3: 1.25rem;
+  --fs-body: 1rem;
+  
+  --bs: 0.25em 0.25em .75em rgba(0,0,0,.25), 
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Comic Neue', cursive;
+  text-align: center;
+  font-size: var(--fs-body);
+}
+
+
+
+h1 {
+  font-family: 'Comic Neue', cursive;
+  font-weight: bold;
+}
+
+
+
+.big-heading {
+  font-family: 'Comic Neue', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:#00acb5;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#header {
+  background-color: #00ADB5;
+  color: #EEEEEE;
+}
+
+.greeting {
+  background-color: #393E46;
+  color:#fff;
+}
+
+.collapse, navbar-collapse {
+  margin-right: 2vw;
+  margin-top: 2vw;
+  position: absolute;
+  right: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: 'Comic Neue', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-left: 4rem;
+  line-height: 1.5;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Comic Neue', cursive;
+
+}
+/* Greeting */
+#home {
+  text-align: center;
+}
+
+.code-img {
+  width: 20%;
+  left: 50px;
+  position: absolute;
+  top: 50%;
+}
+
+.top-plane {
+  width: 20%;
+  left: 80%;
+  position: relative;
+}
+
+/* introduction */
+.intro__img {
+  
+  box-shadow: var(--bs);
+  clip-path: circle();
+  
+}
+
+.intro_title {
+  color:#393E46;
+  font-family: 'Comic Neue', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.intro {
+  margin: 50px  auto 50px auto;
+  position: relative;
+  text-align: center;
+  background-color: #00ADB5;
+  background-image: url('./img/aero.jpg');
+  background-size: contain no repeat;
+  font-weight: bold;
+  color: #EEEEEE;
+}
+
+.section__title {
+  color:#00ADB5
+}
+
+/* About me */
+@media only screen and (max-width: 600em)  {
+
+  .about {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 2;
+  }
+  
+  .about-me {
+    
+    background-color: var(--clr-dark);
+    margin: 0 auto;
+    color: #EEEEEE;
+  }
+  
+  .about-me__img {
+    width: 90%;
+    float: left;
+    margin-right: 30px;
+  }
+
+
+  .bottom-plane {
+    width: 30%;
+    left: 10%;
+    position: relative;
+  }
+  /* Education */
+  .edu {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+  }
+  
+  .my-education {
+    background-color: #393e46;
+    color: #EEEEEE;
+    text-align: center;
+    background-size: cover;
+  }
+  
+  .section__title-edu {
+    color: #00ADB5;
+  }
+  .section__subtitle--edu {
+    text-align: left;
+  }
+  
+.btn-edu {
+  box-shadow: 0px 10px 14px -7px #f15922;
+	background:linear-gradient(to bottom, #f15922 5%, #f15922 100%);
+	background-color:#f15922;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Comic Neue', cursive;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f15a23;
+}
+
+.btn-edu:hover {
+  background:linear-gradient(to bottom, #f15922 5%, #f15922 100%);
+	background-color:#f15922;
+}
+.btn-edu:active {
+  position:relative;
+	top:1px;
+}
+
+
+
+
+  /* Experience */
+  .exp {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+  }
+  
+  .my-technique {
+    background-color: #393e46;
+    color: #EEEEEE;
+    
+  } 
+  
+  .section__title--tech {
+    color: #00ADB5;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  
+  .section__subtitle--tech {
+    color: #EEEEEE;
+    font-weight: bold;
+  }
+  
+  .info {
+    width: 80%;
+    margin: 50px auto 50px auto;
+    line-height: 2;
+  }
+  
+  .mech-exp,
+  .cs-exp {
+    color: #EEEEEE;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .personal-info {
+    background-color: #393e46;
+    color: #00ADB5;
+    text-align: center;
+    
+  }
+  
+  .pi-info {
+    color: #EEEEEE;
+    font-weight: bold;
+  }
+
+  }
+  
+  
+  /* Footer */
+  .footer {
+    background: #AAD8D3;
+    color: var(--clr-accent);
+    text-align: center;
+    padding: 2.5em 0;
+    font-size: var(--fs-h3);
+  }
+  
+  .footer a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .footer__link {
+    font-weight: var(--fw-bold); 
+    
+  }
+  
+  .footer__link:hover,
+  .social-list__link:hover {
+    opacity: .7;
+  }
+  
+  .footer__link:hover {
+    text-decoration: underline;
+  }
+  
+  .social-list {
+    color: var(--clr-accent);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0 0;
+    padding: 0;
+  }
+  
+  .social-list__item {
+    margin: 0 .5em;
+    color: var(--clr-accent);
+  }
+  .response-img {
+    width: 10%;
+    float: left;
+    margin-right: 40px;
+    
+  }
+  
+  input[type=submit] {
+    box-shadow: 0px 10px 14px -7px #276873;
+    background:linear-gradient(to bottom, #00acb5 5%, #408c99 100%);
+    background-color:#00acb5;
+    border-radius:22px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family: 'Comic Neue', cursive;
+    font-size:20px;
+    font-weight:bold;
+    padding:11px 27px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+  
+  }
+  .submit:hover {
+      background:linear-gradient(to bottom, #408c99 5%, #00acb5 100%);
+      background-color:#408c99;
+    }
+  .submit:active {
+      position:relative;
+      top:1px;
+  }
