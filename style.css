@@ -124,14 +124,19 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+.intro__subtitle {
+  color:#393E46;
+  font-family: 'Comic Neue', cursive;
+  line-height: 1.5;
+}
 
 .intro {
   margin: 50px  auto 50px auto;
   position: relative;
   text-align: center;
   background-color: #00ADB5;
-  background-image: url('./img/aero.jpg');
-  background-size: contain no repeat;
+  background-image: url('./img/eng-mech3.jpg');
+  background-size:cover;
   font-weight: bold;
   color: #EEEEEE;
 }
